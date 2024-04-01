@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'Segoe UI'; /* Provide a name for your font */
+    src: url('../src/Segoe\ UI.ttf') format('ttf'); /* Path to your .ttf file */
+    /* Add additional font properties if needed (e.g., font-weight, font-style) */
+  }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Use your custom font as the preferred font */
+  }
+  

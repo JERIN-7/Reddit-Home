@@ -1,5 +1,3 @@
-import styled from "styled-components";
-import Communities from "./components/Communities";
 import Home from "./pages/Home";
 
 

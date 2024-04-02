@@ -41,13 +41,13 @@ align-items:center;
 ${mobile({marginTop:"10px"})};
 `
 const Logo = styled.div`
-height:20px;
-width:20px;
-border-radius:50%;
-background-color: ${props=> props.bg};
-color:white;
-margin-right:5px;
-`
+  height:20px;
+  width:20px;
+  border-radius:50%;
+  background-color: ${({ $bgr }) => $bgr};
+  color:white;
+  margin-right:5px;
+`;
 const Name = styled.div`
 font-weight:300;
 font-size:12px;
@@ -145,7 +145,7 @@ const Post = ({image, description, name,bg,lg}) => {
     <Container>
     <Wrapper>
          <Title>
-          <Logo bg ={bg}>{lg}</Logo>
+          <Logo $bgr ={bg}>{lg}</Logo>
           <Name>{name}</Name>
           <Duration>. 3 days ago</Duration>
           <Join>
